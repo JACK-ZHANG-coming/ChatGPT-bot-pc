@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from 'antd';
 import './index.less';
 
 const Home = ()=>{
@@ -9,7 +10,7 @@ const Home = ()=>{
         <div className="content-box-water">111</div>
       </div>
       <div className="input-box">
-        222
+        <Button type='primary'>123</Button>
       </div>
     </div>
   )
