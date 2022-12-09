@@ -43,7 +43,8 @@ function checkStatus(response) {
 export default function request(url, params) {
   console.log(params);
   //配置 baseURL
-  axios.defaults.baseURL = 'http://127.0.0.1:8000';
+  axios.defaults.baseURL = 'http://chatgptnodejs.zhangqiang.hk.cn:80';
+  // axios.defaults.baseURL = 'chatgptnodejs.zhangqiang.hk.cn:80';
   return axios.get(url, {
     //url 参数
     params: {
